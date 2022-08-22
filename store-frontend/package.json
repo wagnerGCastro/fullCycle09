@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3060 -H 0.0.0.0",
+    "dev": "next dev -p 3060",
+    "dev:all": "next dev -p 3060 -H 0.0.0.0",
     "dev:windows": "(if exist .next rd /s /q .next 2>nul) && next dev -p 3060 -H 0.0.0.0",
     "build": "next build",
     "postbuild": "next-sitemap",
