@@ -5,6 +5,7 @@ services:
     build: .
     entrypoint: ./.docker/entrypoint.sh
     container_name: imersao-fullcycle-3-store-frontend-app
+    restart: unless-stopped
     ports:
       - 3060:3060
     volumes:
